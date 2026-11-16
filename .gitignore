@@ -1,0 +1,22 @@
+# Unreal Engine 5 Git Ignore Rule for VR Projects
+
+# Binaries and intermediate build outputs
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.idea/
+*.sln
+*.VC.db
+*.opendb
+.vs/
+
+# Crash reports and logs
+*.log
+*.dmp
+*.crash
+
+# Files exceeding GitHub 100MB hard limit
+Content/HDRIBackdrop/charolettenbrunn_park_8k.uasset
+Content/HDRIBackdrop/Content/Textures/approaching_storm_4k.uexp
